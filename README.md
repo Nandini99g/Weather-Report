@@ -8,7 +8,7 @@ The script is **idempotent**:
 - If not → create it automatically with encryption and blocked public access.
 - Each run uploads a new **JSON file** with a timestamped filename.
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 - Python 3.8+
 - AWS Account + IAM user with S3 permissions
@@ -31,7 +31,7 @@ s3:PutObject
 
 
 Cloning the repo:
-git clone https://github.com/Nandini99g/<your-repo>.git
+git clone https://github.com/<username>/<your-repo>.git
 cd <your-repo>
 
 Creating a virtual environment:
@@ -47,10 +47,10 @@ Environment Variables
 
 AWS_REGION=ap-south-1
 TEAM=teamb
-USERNAME=nandini
+USERNAME=yourname
 CITY=Bengaluru,IN
 OPENWEATHER_API_KEY=your_openweather_api_key
-BUCKET_NAME=weather-data-teamb-nandini-20250902
+BUCKET_NAME=weather-data-teamb-<your-name>-20250902
 
 Running the Script
 python weather_to_s3.py
