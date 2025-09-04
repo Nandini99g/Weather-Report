@@ -8,18 +8,16 @@ The script is **idempotent**:
 - If not → create it automatically with encryption and blocked public access.
 - Each run uploads a new **JSON file** with a timestamped filename.
 
----
-
 ## ⚙️ Prerequisites
 
 - Python 3.8+
 - AWS Account + IAM user with S3 permissions
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) configured:
   ```bash
-  aws configure
+ aws configure
 
 
-  Permissions required:
+Permissions required:
 
 s3:CreateBucket
 
