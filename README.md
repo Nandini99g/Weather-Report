@@ -13,7 +13,6 @@ The script is **idempotent**:
 - Python 3.8+
 - AWS Account + IAM user with S3 permissions
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) configured:
-  ```bash
  aws configure
 
 
